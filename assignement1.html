@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <style>
+        html{
+            /**background-image: url("92fe9059ds13d166792546e723d7b5d7.JPG");
+            background-size: 100%;
+            background-repeat:repeat-y;
+            background-attachment:fixed;**/
+            color:#17202A;
+        
+        }
+        body{
+            display: grid;
+            grid-template-columns: 70% auto;
+            grid-template-areas: "hd sidebar"
+                                "ct ct"
+                                "bp main"
+                                "footer footer";
+        }
+       header{
+            grid-area: hd;  
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 50px 80px;
+            font-size: x-large;
+            
+       }
+       catalog{
+            grid-area: ct;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:x-large;   
+            text-transform: uppercase;  
+            border-style:dashed;
+       }
+       .b1_image{
+            grid-area: bp;
+            background-image: url("IMG_7037\ copy.JPG");
+            background-size: 100%;
+            background-repeat: repeat-y;
+            margin: 15px 0px;
+           
+       }
+       main{
+            grid-area: main;
+            background-color: rgba(254, 250, 231, 0.65);
+            padding: 20px;
+            margin: 15px 0px;
+       }
+       m2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 10px; 
+            padding:auto;   
+       }
+       
+        .parent {
+            background-color: rgba(254, 250, 231, 0.65);
+        }
+        p1{
+            justify-content: center;
+            padding-left: inherit;
+
+        }
+        .kid1{
+            position:relative;
+            padding: 30px;
+            margin: 0px 10px;       
+        }
+        .kid1 :hover{
+            position: relative;
+            color: #AF601A ;
+            background-color: #FCF3CF;
+            padding: 15px 0px;
+          
+        }
+        .kid2{
+            padding: 30px;
+            margin: 0px 10px;
+        }
+        .kid3{
+            padding: 30px;
+            margin: 0px 10px ;
+            
+        }
+        aside{
+            grid-area: sidebar;
+            align-items: center;
+            margin:85px auto;  
+            text-decoration: dotted;
+            font-weight:bolder;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;            
+        }
+        aside :hover{
+            background-color:#FCF3CF;
+            text-decoration-line: none;
+        }
+      
+        footer{
+            grid-area: footer;
+            border-style:dashed;
+            background-color: rgba(254, 250, 231, 0.65);
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding:5px 20px;         
+            text-align: center;
+        }
+        p{
+            font-weight: bolder;
+        }
+
+        p2:hover{
+            background-color: #FCF3CF;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>ZHU, Jiayan</h1>    
+    </header>
+    <catalog>
+        <m1>
+        <div class="parent">
+        </m1>
+        <m2>
+        <div class="kid1"> <a href="http://127.0.0.1:5500/assignment1/assignement1.html" style="text-decoration:none; color:black">Assignment1</a>  </div> 
+        <div class="kid2"> Assignment2 </div>
+        <div class="kid3"> Assignment3 </div>
+        <div class="kid3"> Assignment4 </div>
+        <div class="kid3"> Assignment5 </div>
+        </m2>
+    </div>
+    </catalog>
+    <div class="b1_image"></div>
+    <main>
+        <b1>
+            Dear All,  <br/><br/>
+            Welcome to my first HTML page with CSS design.  Here I would like to include the thinking process while designing this page.<br/><br/>
+            First of all, I consider this website as my first personal website, which could be used to introduce who I am during and after my one-year postgraduate study.  Therefore, I put my name on the top line of the page.  Following this idea, the function of “About Me” and “Contact Me” are added as a sidebar next to the heading.  As for the “About Me” function, it is linked to my LinkedIn page, so that I do not need to cover all the information once again and people can easily build connections with me via this popular social platform.  In order to raise people’s attention, I applied to hover function on the sidebar to highlight these functions as well.  Regarding “Contact Me”, I have not included an external link since I do not have other communication accounts that are open to the public besides LinkedIn so far.  The second part, the catalog, is essential because it is the required function in our first assignment.  In the first HTML draft, the content of the catalog was considered as the main body of the page, and the main body, which is this article, was missing.  However, I felt like it would be a little boring and empty if finalising the page as that.  Therefore this article reflecting my design thinking process is added!  Going back to the catalog section, only “assignment1” have the hover function and URL because other assignments have not been introduced so far.  The last function is the footer.  This is included because I think people who are interested in my experience, as well as the skills used to design this page, would like to check out which uni I went to and which courses I have taken.  So, do you think my website is interesting that YOU would also like to learn some basic HTML/CSS to make your own websites? If so, please check it out in the footer!<br/><br/>
+            Apart from functions, the design aesthetic is also worth mentioning.  I firstly used a picture taken by myself as the background picture, and then adjusted the background clolour, colours of the text, and font family such as “fantasy”. By the way, font-style "fantasy" appears in different ways via google chrome and safari, which is quite interestig. However, this kind of design is a little bit “old school” that does not match trendy website aesthetics nowadays.  Keeping with the idea “less is more”, I deleted that background image and put it in the main body as a supporting image of this article.  I still keep the background colour to avoid being too boring and the colour also matches the color of the image.  Meanwhile, I use the flat font family as it is closer to the “modern” aesthetics of website design.  Now it looks like a modern newspaper page!  So, that’s all about this page, my first HTML/CSS design.  Isn’t that interesting?  If you like it or have some advice, do hesitate to leave me a message or DM on LinkedIn.<br/> <br/>
+            Thanks and goodbye.<br/><br/>  
+            Best wishes,<br/><br/>
+            JY
+        </b1>
+    </main>
+    <aside>
+        <div class="about" >
+            <a href="https://www.linkedin.com/in/jiayan-zhu-4a77b31b7/" 
+            style=
+            "color: black;
+            text-decoration-line: none;"
+            >关于我 | About Me </a></div>
+        <div class="contact">联系我 | Contact Me</div>
+    </aside>
+    <footer>
+       <p>RELEVANT WEBAITES</p>
+       <p2><a href="https://www.cuhk.edu.hk/english/index.html"
+        style="text-decoration:none; color:black">香港中文大学 The Chinese University of Hong Kong</a>
+       </p2> 
+</footer>
+</body>
+</html>
