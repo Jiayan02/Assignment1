@@ -1,0 +1,109 @@
+html{
+    /**background-image: url("92fe9059ds13d166792546e723d7b5d7.JPG");
+    background-size: 100%;
+    background-repeat:repeat-y;
+    background-attachment:fixed;**/
+    color:#17202A;
+
+}
+.body_a1{
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-areas: "hd sidebar"
+                        "ct ct"
+                        "bp main"
+                        "footer footer";
+}
+
+header{
+    grid-area: hd;  
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 50px 80px;
+    font-size: x-large;
+    
+}
+catalog{
+    grid-area: ct;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:x-large;   
+    text-transform: uppercase;  
+    border-style:dashed;
+}
+
+
+.b1_image{
+        grid-area: bp;
+        background-image: url("IMG_7037.JPG");
+        background-size: 100%;
+        background-repeat: repeat-y;
+        margin: 15px 0px;
+}
+b1{
+    font-size: large;
+}
+main{
+    grid-area: main;
+    background-color: rgba(254, 250, 231, 0.65);
+    padding: 20px;
+    margin: 15px 0px;
+}
+m2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+    padding:auto;   
+}
+
+.parent {
+    background-color: rgba(254, 250, 231, 0.65);
+}
+p1{
+    justify-content: center;
+    padding-left: inherit;
+
+}
+.kid1,.kid2,.kid3, .kid4, .kid5{
+    position:relative;
+    padding: 30px;
+    margin: 0px 10px;       
+}
+.kid1 :hover, .kid2 :hover, .kid3 :hover, .kid4 :hover, .kid5 :hover{
+    position: relative;
+    color: #AF601A ;
+    background-color: #FCF3CF;
+    padding: 15px 0px;  
+}
+
+    
+aside{
+    grid-area: sidebar;
+    align-items: center;
+    margin:85px auto;  
+    text-decoration: dotted;
+    font-weight:bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;            
+}
+aside :hover{
+    background-color:#FCF3CF;
+    text-decoration-line: none;
+}
+
+footer{
+    grid-area: footer;
+    border-style:dashed;
+    background-color: rgba(254, 250, 231, 0.65);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:5px 20px;         
+    text-align: center;
+}
+p{
+    font-weight: bolder;
+}
+
+p2:hover{
+    background-color: #FCF3CF;
+}
+
+
