@@ -38,6 +38,13 @@ catalog{
         background-repeat: repeat-y;
         margin: 15px 0px;
 }
+.b4_image{
+    grid-area: bp;
+    background-image: url("a4_img.jpeg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    margin: 15px 0px;
+}
 b1{
     font-size: large;
 }
